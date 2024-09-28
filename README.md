@@ -47,7 +47,7 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 
 ## More information
 * [KIT_XMC13_DPCC_V1 BSP API Reference Manual][api]
-* [KIT_XMC13_DPCC_V1 Documentation](https://www.infineon.com/dgdl/Infineon-XMC1300_DigitaPowerControlCard_UserManual-UM-v01_00-EN.pdf?fileId=5546d4625185e0e201518be86d193e29)
+* [KIT_XMC13_DPCC_V1 Documentation](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
 * [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
@@ -56,4 +56,4 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 [settings]: https://infineon.github.io/TARGET_KIT_XMC13_DPCC_V1/html/md_bsp_settings.html
 
 ---
-© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2022.
+© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2024.

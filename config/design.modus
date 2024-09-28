@@ -3,6 +3,98 @@
     <Devices>
         <Device mpn="XMC1302-T038x0200">
             <BlockConfig>
+                <Block location="ioss[0].port[0].pin[0]">
+                    <Alias value="CYBSP_PWM7"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[11]">
+                    <Alias value="CYBSP_GP1"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[12]">
+                    <Alias value="CYBSP_GP2"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[13]">
+                    <Alias value="CYBSP_PWM_RC2"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[1]">
+                    <Alias value="CYBSP_PWM4"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[2]">
+                    <Alias value="CYBSP_PWM3"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[3]">
+                    <Alias value="CYBSP_PWM0"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[4]">
+                    <Alias value="CYBSP_PWM5"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[5]">
+                    <Alias value="CYBSP_PWM1"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[6]">
+                    <Alias value="CYBSP_PWM6"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[7]">
+                    <Alias value="CYBSP_PWM2"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[8]">
+                    <Alias value="CYBSP_GP0"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[9]">
+                    <Alias value="CYBSP_PWM_RC0"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[0]">
+                    <Alias value="CYBSP_USIC2"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[1]">
+                    <Alias value="CYBSP_USIC3"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[2]">
+                    <Alias value="CYBSP_DEBUG_UART_RX"/>
+                    <Alias value="_CYBSP_USIC0"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[3]">
+                    <Alias value="CYBSP_DEBUG_UART_TX"/>
+                    <Alias value="_CYBSP_USIC1"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[4]">
+                    <Alias value="CYBSP_USER_LED"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[5]">
+                    <Alias value="CYBSP_PWM_RC1"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[0]">
+                    <Alias value="CYBSP_ADC4OUT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[10]">
+                    <Alias value="CYBSP_ADC1OUT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[11]">
+                    <Alias value="CYBSP_ADC5OUT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[1]">
+                    <Alias value="CYBSP_CMP2OUT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[2]">
+                    <Alias value="CYBSP_ADC3OUT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[3]">
+                    <Alias value="CYBSP_ADC0OUT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[4]">
+                    <Alias value="CYBSP_ADC2OUT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[5]">
+                    <Alias value="CYBSP_ADC6OUT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[6]">
+                    <Alias value="CYBSP_ADC7OUT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[7]">
+                    <Alias value="CYBSP_CMP1OUT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[9]">
+                    <Alias value="CYBSP_CMP0OUT"/>
+                </Block>
                 <Block location="scu[0].clock[0]">
                     <Personality template="xmc1_clocks" version="1.0"/>
                 </Block>
@@ -36,6 +128,9 @@
                     <Personality template="xmc1_rtcclk" version="1.0">
                         <Param id="rtc_src" value="XMC_SCU_CLOCK_RTCCLKSRC_DCO2"/>
                     </Personality>
+                </Block>
+                <Block location="usic[0].ch[0]">
+                    <Alias value="CYBSP_DEBUG_UART"/>
                 </Block>
             </BlockConfig>
             <Netlist/>

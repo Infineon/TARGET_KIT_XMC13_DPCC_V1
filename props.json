@@ -1,19 +1,19 @@
 {
     "core": {
-        "version": "2.3.0.37823"
+        "version": "2.3.1.43352"
     },
     "opt": {
         "props": {
             "capabilities": [
                 "adc",
                 "bsp_gen4",
+                "buck_converter",
                 "cat3",
                 "ccu4",
                 "ccu8",
                 "comp",
                 "flash_200k",
                 "i2c",
-                "i2s",
                 "kit_xmc13_dpcc_v1",
                 "led",
                 "low_power",
